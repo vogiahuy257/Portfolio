@@ -99,7 +99,7 @@ body{
 
 
 .content_box>.img>img{
-  width: 60%;
+  width: 70%;
   margin-left: 30px;
   height: auto;
   box-shadow: 15px 15px 10px #364649b0;
@@ -107,15 +107,20 @@ body{
 }
 
 .text_box{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 200px;
   text-align: center;
   margin: auto;
+  justify-content: center;
 }
+
 
 .text_box h1{
   white-space:  nowrap;
-  font-size: 450%;
-  color: #0081A7;
-  background: linear-gradient(30deg, #547076, #af8752);
+  font-size: 500%;
+  background: linear-gradient(30deg, #00e1ff, #ff9100);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
