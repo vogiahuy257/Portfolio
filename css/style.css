@@ -460,18 +460,19 @@ body{
   margin: auto;
   width: 80%;
   display: flex;
+  align-content: center;
   justify-content: space-evenly;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
 }
 
 .project_card{
-    width: 350px;
+    width: 320px;
     height: 480px;
     background-color: rgb(255, 243, 224);
     border-radius: 20px;
     border: 0.1px solid #515151b5;
     transition: 0.5s ease-in-out;
-    margin-bottom: 25px;
+    margin-bottom: 3rem;
 }
 
 .project_card:hover{
